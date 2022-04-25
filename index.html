@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <script src="https://kit.fontawesome.com/834ae97e47.js" crossorigin="anonymous"></script>
+    <title>Git & Terminal Cheatsheet</title>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <div class="icons">
+                <i class="lab la-github">&</i>
+                <i class="fa fa-terminal"> </i>
+            </div>
+
+
+            <div class="nav-list">
+                <ul>
+
+                    <li>
+                        <a href="#header">Home</a>
+                    </li>
+                    <li>
+                        <a href="#git">Git</a>
+                    </li>
+                    <li>
+                        <a href="#terminal">Terminal</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+        <div class="header-title" id="header">
+            <h2>GIT / GITHUP</h2>
+            <h2>& </h2>
+            <h2>TERMINAL</h2>
+            <h2>CHEATSHEET</h2>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="git-container">
+
+            <nav>
+                <div class="icon">
+                    <i class="lab la-github"></i>
+                </div>
+
+
+                <div class="nav-list">
+                    <ul>
+
+                        <li>
+                            <a href="#header">Home</a>
+                        </li>
+                        <li>
+                            <a href="#git">Was ist Git?</a>
+                        </li>
+                        <li>
+                            <a href="#befehle">Befehle</a>
+                        </li>
+                        <li>
+                            <a href="#abkürz">Abkürzungen</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+
+            <section class="section-git" id="git">
+
+
+                <h2>Was ist Git ?</h2>
+                <p>Git und Github sind nicht das gleiche! Git ist ein VSC-Tool und GitHub ist eine Plattform die Git benutzt, es gibt auch andere zb. GitLab, GitBucket, BitBucket, Sourceforge und so weiter. Git wird überall benutzt und ist eins der wichtigsten
+                    Tools für Entwickler geworden. Dadurch können Entwickler von überall zusammenarbeiten. Git ist ein Versionverwaltungstool, das bei jedem comitten eine Art Schnappschuss von deinem Projekt macht. Hinterher hat man einen Stapel von Schnappschüssen.</p>
+
+
+
+            </section>
+
+            <section class="section-befehle" id="befehle">
+
+                <h2>Git-Befehle</h2>
+
+                <div class="befehle-list">
+
+                    <div>
+                        <h3>git init</h3>
+                        <p>Initialisiert ein lokales git repository</p>
+                    </div>
+
+                    <div>
+                        <h3>git add .</h3>
+                        <p>Gibt an was alles in den commit rein soll</p>
+                    </div>
+                    <div>
+                        <h3>git commit -m “message”</h3>
+                        <p>
+                            Hinterlegt einen message/commit
+                        </p>
+                    </div>
+                    <div>
+                        <h3>git push</h3>
+                        <p>Schickt das lokale repository in das github repository</p>
+                    </div>
+                    <div>
+                        <h3>git log </h3>
+                        <p>Zeigt alle die bis dato erstellten commits ausführlich an</p>
+                    </div>
+
+                    <div>
+                        <h3>git log --oneline</h3>
+                        <p>Zeigt alle die bis dato erstellten commits in kurzform an</p>
+                    </div>
+                    <div>
+                        <h3>git branch “name”</h3>
+                        <p>Erstellt einen neuen Branch</p>
+                    </div>
+                    <div>
+                        <h3>git branch -a</h3>
+                        <p>Zeigt alle erstellten Branches an</p>
+                    </div>
+                    <div>
+                        <h3>git branch -d “name”</h3>
+                        <p>Löscht den ausgewählten Branch</p>
+                    </div>
+
+                    <div>
+                        <h3>git checkout</h3>
+                        <p>Wechseln zwischen den Branches</p>
+                    </div>
+
+                    <div>
+                        <h3>git pull</h3>
+                        <p>Lädt die aktuelle Version des Repository von GitHub runter </p>
+                    </div>
+
+                    <div>
+                        <h3>git clone</h3>
+                        <p>Kopiert ein fremdes Projekt von Github </p>
+                    </div>
+
+                    <div>
+                        <h3>git merge</h3>
+                        <p>Ist dafür da um zwei branches zusammenzuführen </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="section-abkürzung" id="abkürz">
+                <h2>Abkürzungen</h2>
+                <p> <span>A</span> - Added (This is a new file that has been added to the repository)</p>
+                <p> <span>M</span> - Modified (An existing file has been changed)</p>
+                <p><span>D</span> - Deleted (a file has been deleted)</p>
+                <p>Untracked (The file is new or has been changed but has not been added to the repository yet)</p>
+                <p><span>C</span> - Conflict (There is a conflict in the file)
+                </p>
+                <p><span>R</span> - Renamed (The file has been renamed)</p>
+                <p><span>S</span> - Submodule (In repository exists another subrepository)</p>
+
+            </section>
+        </div>
+
+        <div class="terminal-container">
+
+            <nav>
+                <div class="icon">
+                    <i class="fa fa-terminal"> </i>
+                </div>
+
+
+                <div class="nav-list">
+                    <ul>
+
+                        <li>
+                            <a href="#header">Home</a>
+                        </li>
+                        <li>
+                            <a href="#terminal">Was ist Terminal?</a>
+                        </li>
+                        <li>
+                            <a href="#terminal-befehle">Befehle</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </nav>
+
+            <section class="section-git" id="terminal">
+
+
+                <h2>Was ist Terminal ?</h2>
+                <p>Ein Terminal, auch als Konsole eines Computers oder traditionell im deutschen Sprachgebrauch als Datensichtgerät bezeichnet, ist ein Endgerät zur Eingabe und Anzeige von Daten. Terminals wurden entwickelt, um die vormals an Großrechnern
+                    eingesetzten Fernschreiber zu ersetzen. Die Abkürzung tty des englischen Worts für Fernschreiber „teletype“ ist noch heute in Unix-Betriebssystemen und entsprechender Software allgegenwärtig. Während in der Frühzeit noch den Fernschreibern
+                    vergleichbare Geräte – bezeichnet als „Hardcopy-Terminals“, bestehend aus einem Drucker und einer Tastatur – in Gebrauch waren, bestand der Vorteil von Terminals später darin, dass ein Bildschirm für die Wiedergabe der Daten eingesetzt
+                    wurde. Bessere Geräte konnten und können nicht nur sequentiell Zeilen ausgeben: Mit einem beliebig manövrierbaren Cursor konnte Text in jeder Zeile eingegeben und verändert werden. Die ab etwa 1977 allmählich einsetzende Verbreitung
+                    der Personal Computer hat die Terminals mittlerweile aus den meisten Büros verdrängt. Viele Terminals sind durch Terminalemulationen ersetzt worden, die auf einem PC laufen. Bis heute sind Terminals aber in einigen Bereichen verbreitet.</p>
+
+
+
+            </section>
+
+            <section class="section-befehle" id="terminal-befehle">
+
+                <h2>Terminal-Befehle</h2>
+
+                <div class="befehle-list">
+
+                    <div>
+                        <h3>touch</h3>
+                        <p>Erstellt eine Datei!</p>
+                    </div>
+
+                    <div>
+                        <h3>mkdir 'make directory' </h3>
+                        <p>Erstellt einen neuen Ordner</p>
+                    </div>
+                    <div>
+                        <h3>ls 'list directory'</h3>
+                        <p>
+                            Zeigt uns alle Dateien/Ordner im Verzeichnis an
+                        </p>
+                    </div>
+                    <div>
+                        <h3>ls -l 'list directory'</h3>
+                        <p>Zeigt uns alle Dateien/Ordner im Verzeichnis an, nur ausführlicher</p>
+                    </div>
+                    <div>
+                        <h3>ls -a 'list directory'</h3>
+                        <p>Zeigt uns alle Dateien/Ordner, auch die verstecken</p>
+                    </div>
+
+                    <div>
+                        <h3>cd 'change directory'</h3>
+                        <p>Mit cd können in unserem Verzeichnis navigieren</p>
+                    </div>
+                    <div>
+                        <h3>cat 'concatenate'</h3>
+                        <p>Den Inhalt von Datein im Terminal anzeigen lassen</p>
+                    </div>
+                    <div>
+                        <h3>mv 'move/rename'</h3>
+                        <p> Verschiebt Datein und kann sie umbenennen</p>
+                    </div>
+                    <div>
+                        <h3>cp 'copy files and directories'</h3>
+                        <p>Erstellt eine Kopie von unserer Datei oder Ordner</p>
+                    </div>
+
+                    <div>
+                        <h3>pwd 'print working directory'</h3>
+                        <p>Zeigt uns vom root verzeichnis aus wo wir uns gerade befinden</p>
+                    </div>
+
+
+                </div>
+            </section>
+
+
+        </div>
+
+
+    </main>
+
+    <footer>
+        <p> &COPY;2022 - Kemal </p>
+    </footer>
+</body>
+
+</html>

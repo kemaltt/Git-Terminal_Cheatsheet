@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Playfair+Display:ital@1&family=Roboto+Mono&family=Rubik+Microbe&family=Titillium+Web&display=swap');
+
+/* 
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Rubik Microbe', cursive;
+font-family: 'Titillium Web', sans-serif;
+
+farbe #AAB8C3,#D8C164, #4A9EBE,#C198FB,#1D2025
+*/
+
+
+/*============================
+General Styles
+=========================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.fa-terminal {
+    font-size: 3.2rem;
+}
+
+
+/*============================
+           Header
+=========================*/
+
+header {
+    background-color: #1D2025;
+    padding-bottom: 2vh;
+    padding: 2vh 2% 2vh 2%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+nav i {
+    display: flex;
+    gap: 5px;
+    color: #fff;
+    font-size: 4rem;
+}
+
+nav i:hover {
+    color: #C198FB;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #D8C164;
+    padding: 5px;
+    font-size: 1.1rem;
+    font-family: 'Fjalla One', sans-serif;
+    border-bottom: 1px solid #fff;
+}
+
+nav a:hover {
+    color: #fff;
+    border-bottom: 1px solid #D8C164;
+}
+
+.header-title {
+    padding: 20vh 0 20vh 0;
+}
+
+.header-title h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 5rem;
+    font-family: 'Rubik Microbe', cursive;
+}
+
+.header-title h2:nth-of-type(4) {
+    margin-top: 2vh;
+}
+
+
+/*============================
+          Main
+=========================*/
+
+
+/* Section-Git=========== */
+
+.git-container {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=888&q=80");
+    /* background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../img/Bildschirmfoto\ 2022-04-11\ um\ 14.11.51.png"); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 3vh 2% 0 2%;
+}
+
+.section-git {
+    padding: 1vh 5% 1vh 5%;
+    margin-bottom: 20vh;
+}
+
+.section-git h2 {
+    color: #4A9EBE;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 5rem;
+    border-bottom: 2px solid #D8C164;
+    margin-bottom: 4vh;
+}
+
+.section-git p {
+    color: #AAB8C3;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2rem;
+    margin-right: 10%;
+}
+
+
+/* Section-Befehle=========== */
+
+.section-befehle h2 {
+    color: #4A9EBE;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.section-befehle h3 {
+    display: inline-block;
+    border: 1.8px solid #4A9EBE;
+    width: 30%;
+    color: #D8C164;
+    padding: 6px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18px;
+}
+
+.section-befehle p {
+    display: inline-block;
+    border-bottom: 2px solid #4A9EBE;
+    width: 69%;
+    color: #C198FB;
+    padding: 6px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.befehle-list {
+    text-align: left;
+    margin: 2vh 20% 2vh 20%;
+    border: 35px solid #AAB8C3;
+    background-color: #151718;
+}
+
+
+/* Section-Abkürzung=========== */
+
+.section-abkürzung {
+    padding: 20vh 5% 4vh 5%;
+}
+
+.section-abkürzung h2 {
+    color: #4A9EBE;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 5rem;
+    border-bottom: 2px solid #D8C164;
+    margin-bottom: 4vh;
+}
+
+.section-abkürzung p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2rem;
+    margin-right: 10%;
+    color: #C198FB;
+}
+
+.section-abkürzung span {
+    color: #D8C164;
+}
+
+.terminal-container {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://images.unsplash.com/photo-1629654297299-c8506221ca97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tcHV0ZXIlMjB0ZXJtaW5hbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    /* background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../img/Bildschirmfoto\ 2022-04-11\ um\ 14.11.51.png"); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 3vh 2% 0 2%;
+}
+
+
+/*============================
+         Footer
+=========================*/
+
+footer {
+    text-align: center;
+    color: #4A9EBE;
+    font-family: 'Playfair Display', serif;
+    padding: 2rem;
+}
