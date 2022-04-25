@@ -113,11 +113,11 @@ nav a:hover {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    padding: 3vh 2% 0 2%;
+    padding: 3vh 2% 3vh 2%;
 }
 
 .section-git {
-    padding: 1vh 5% 1vh 5%;
+    padding: 2vh 5% 1vh 5%;
     margin-bottom: 20vh;
 }
 
@@ -206,7 +206,7 @@ nav a:hover {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    padding: 3vh 2% 0 2%;
+    padding: 3vh 2% 5vh 2%;
 }
 
 
@@ -218,5 +218,7 @@ footer {
     text-align: center;
     color: #4A9EBE;
     font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
     padding: 2rem;
+    background-color: #1D2025;
 }
