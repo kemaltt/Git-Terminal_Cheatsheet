@@ -48,12 +48,21 @@ nav {
     top: 0;
     bottom: 0;
     width: 100%;
+    /* position: relative; */
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #D8C164;
+    padding: 5px;
+    font-size: 2rem;
 }
 
 nav i {
-    display: flex;
-    gap: 5px;
-    color: #fff;
+    color: #D8C164;
     font-size: 4rem;
 }
 
@@ -84,7 +93,7 @@ nav a:hover {
 }
 
 .header-title {
-    padding: 20vh 0 20vh 0;
+    padding: 20vh 27% 20vh 27%;
 }
 
 .header-title h2 {
@@ -94,8 +103,29 @@ nav a:hover {
     font-family: 'Rubik Microbe', cursive;
 }
 
+.header-title h2:hover {
+    color: #C198FB;
+    cursor: pointer;
+}
+
 .header-title h2:nth-of-type(4) {
     margin-top: 2vh;
+}
+
+.nav-list-right {
+    border: #D8C164 1px solid;
+    padding: 15px;
+    border-radius: 10px;
+    position: absolute;
+    right: 1%;
+    top: 250px;
+    transition: all 3s;
+}
+
+.nav-list-right ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 
@@ -114,6 +144,7 @@ nav a:hover {
     background-position: center;
     background-size: cover;
     padding: 3vh 2% 3vh 2%;
+    position: relative;
 }
 
 .section-git {
@@ -157,7 +188,6 @@ nav a:hover {
 }
 
 .section-befehle p {
-    display: inline-block;
     border-bottom: 2px solid #4A9EBE;
     width: 69%;
     color: #C198FB;
@@ -171,6 +201,12 @@ nav a:hover {
     margin: 2vh 20% 2vh 20%;
     border: 35px solid #AAB8C3;
     background-color: #151718;
+}
+
+.befehle-list div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -207,6 +243,7 @@ nav a:hover {
     background-position: center;
     background-size: cover;
     padding: 3vh 2% 5vh 2%;
+    position: relative;
 }
 
 

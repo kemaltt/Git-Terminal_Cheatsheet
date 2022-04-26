@@ -15,23 +15,24 @@
 <body>
     <header>
 
-        <nav>
+        <nav id="nav">
             <div class="icons">
-                <i class="lab la-github">&</i>
-                <i class="fa fa-terminal"> </i>
+                <i class="lab la-github"></i>
+                <span>&</span>
+                <img src="assets/img/icons8-terminal-64.png" alt="terminal-png">
             </div>
 
 
-            <div class="nav-list">
+            <div class="nav-list" id="navbar">
                 <ul>
 
-                    <li>
+                    <li onclick="topNavbar()">
                         <a href="#header">Home</a>
                     </li>
-                    <li>
+                    <li onclick="rightNavbar()">
                         <a href="#git">Git & GitHup</a>
                     </li>
-                    <li>
+                    <li onclick="rightNavbar()">
                         <a href="#terminal">Terminal</a>
                     </li>
 
@@ -52,54 +53,44 @@
 
         <div class="git-container">
 
-            <nav>
+            <nav id="nav">
                 <div class="icon">
                     <i class="lab la-github"></i>
                 </div>
 
 
-                <div class="nav-list">
+                <div class="nav-list" id="navbar">
                     <ul>
 
-                        <li>
+                        <li onclick="topNavbar()">
                             <a href="#header">Home</a>
                         </li>
-                        <li>
+                        <li onclick="rightNavbar()">
                             <a href="#git">Was ist Git?</a>
                         </li>
-                        <li>
+                        <li onclick="rightNavbar()">
                             <a href="#befehle">Befehle</a>
                         </li>
-                        <li>
+                        <li onclick="rightNavbar()">
                             <a href="#abkürz">Abkürzungen</a>
                         </li>
                     </ul>
                 </div>
-
             </nav>
 
             <section class="section-git" id="git">
-
-
                 <h2>Was ist Git ?</h2>
                 <p>Git und Github sind nicht das gleiche! Git ist ein VSC-Tool und GitHub ist eine Plattform die Git benutzt, es gibt auch andere zb. GitLab, GitBucket, BitBucket, Sourceforge und so weiter. Git wird überall benutzt und ist eins der wichtigsten
                     Tools für Entwickler geworden. Dadurch können Entwickler von überall zusammenarbeiten. Git ist ein Versionverwaltungstool, das bei jedem comitten eine Art Schnappschuss von deinem Projekt macht. Hinterher hat man einen Stapel von Schnappschüssen.</p>
-
-
-
             </section>
 
             <section class="section-befehle" id="befehle">
-
                 <h2>Git-Befehle</h2>
-
                 <div class="befehle-list">
-
                     <div>
                         <h3>git init</h3>
                         <p>Initialisiert ein lokales git repository</p>
                     </div>
-
                     <div>
                         <h3>git add .</h3>
                         <p>Gibt an was alles in den commit rein soll</p>
@@ -175,22 +166,22 @@
 
         <div class="terminal-container">
 
-            <nav>
+            <nav id="nav">
                 <div class="icon">
-                    <i class="fa fa-terminal"> </i>
+                    <img src="assets/img/icons8-terminal-64.png" alt="terminal-png">
                 </div>
 
 
-                <div class="nav-list">
+                <div class="nav-list" id="navbar">
                     <ul>
 
-                        <li>
+                        <li onclick="topNavbar()">
                             <a href="#header">Home</a>
                         </li>
-                        <li>
+                        <li onclick="rightNavbar()">
                             <a href="#terminal">Was ist Terminal?</a>
                         </li>
-                        <li>
+                        <li onclick="rightNavbar()">
                             <a href="#terminal-befehle">Befehle</a>
                         </li>
 
@@ -275,6 +266,8 @@
     <footer>
         <p> &COPY;2022 - Kemal </p>
     </footer>
+
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
